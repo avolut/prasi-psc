@@ -1,0 +1,28 @@
+{
+  "name": "a0170f25-a9d9-4646-a970-f1c2e5747971",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "rsbuild dev -c rsbuild.dev.ts",
+    "build": "rsbuild build -c rsbuild.prod.ts",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@dnd-kit/sortable": "^9.0.0",
+    "classnames": "^2.5.1",
+    "dayjs": "^1.11.13",
+    "dnd-tree-sortable": "^1.0.3",
+    "lodash.get": "^4.4.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.0.19",
+    "@rsbuild/plugin-react": "^1.0.6",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3"
+  }
+}
